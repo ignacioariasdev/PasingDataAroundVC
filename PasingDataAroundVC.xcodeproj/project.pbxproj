@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		706B06E922224BA700DD0CE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B06E822224BA700DD0CE3 /* AppDelegate.swift */; };
-		706B06EB22224BA700DD0CE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B06EA22224BA700DD0CE3 /* ViewController.swift */; };
+		706B06EB22224BA700DD0CE3 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B06EA22224BA700DD0CE3 /* FirstVC.swift */; };
 		706B06EE22224BA700DD0CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706B06EC22224BA700DD0CE3 /* Main.storyboard */; };
 		706B06F022224BA900DD0CE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706B06EF22224BA900DD0CE3 /* Assets.xcassets */; };
 		706B06F322224BA900DD0CE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706B06F122224BA900DD0CE3 /* LaunchScreen.storyboard */; };
+		706B06FB22225BF200DD0CE3 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B06FA22225BF200DD0CE3 /* SecondVC.swift */; };
+		706B06FD2223031700DD0CE3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706B06FC2223031700DD0CE3 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		706B06E522224BA700DD0CE3 /* PasingDataAroundVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasingDataAroundVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		706B06E822224BA700DD0CE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		706B06EA22224BA700DD0CE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		706B06EA22224BA700DD0CE3 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		706B06ED22224BA700DD0CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		706B06EF22224BA900DD0CE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		706B06F222224BA900DD0CE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		706B06F422224BA900DD0CE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706B06FA22225BF200DD0CE3 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		706B06FC2223031700DD0CE3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		706B06E722224BA700DD0CE3 /* PasingDataAroundVC */ = {
 			isa = PBXGroup;
 			children = (
-				706B06E822224BA700DD0CE3 /* AppDelegate.swift */,
-				706B06EA22224BA700DD0CE3 /* ViewController.swift */,
+				706B06FA22225BF200DD0CE3 /* SecondVC.swift */,
+				706B06EA22224BA700DD0CE3 /* FirstVC.swift */,
+				706B06FC2223031700DD0CE3 /* Player.swift */,
 				706B06EC22224BA700DD0CE3 /* Main.storyboard */,
+				706B06E822224BA700DD0CE3 /* AppDelegate.swift */,
 				706B06EF22224BA900DD0CE3 /* Assets.xcassets */,
 				706B06F122224BA900DD0CE3 /* LaunchScreen.storyboard */,
 				706B06F422224BA900DD0CE3 /* Info.plist */,
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				706B06EB22224BA700DD0CE3 /* ViewController.swift in Sources */,
+				706B06FD2223031700DD0CE3 /* Player.swift in Sources */,
+				706B06EB22224BA700DD0CE3 /* FirstVC.swift in Sources */,
+				706B06FB22225BF200DD0CE3 /* SecondVC.swift in Sources */,
 				706B06E922224BA700DD0CE3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

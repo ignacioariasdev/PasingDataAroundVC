@@ -8,6 +8,6 @@
 
 import UIKit
 
-class Player {
-    var name = "Cah"
+struct Player {
+    var name: String = "Cah"
 }

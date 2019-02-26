@@ -10,17 +10,12 @@ import UIKit
 
 class FirstVC: UIViewController {
 
-    
-    
-    
     @IBOutlet weak var futureName: UILabel!
    
     let name1 = Player()
     
     func passingName(){
         futureName.text = name1.name
-       
-        
     }
     
     override func viewDidLoad() {
